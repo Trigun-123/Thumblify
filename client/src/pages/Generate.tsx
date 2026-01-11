@@ -54,8 +54,7 @@ const Generate = () => {
   if (data.thumbnail) {
   navigate('/generate/' + data.thumbnail._id);
   toast.success(data.message)
-}
-
+  }
 }
 
 
